@@ -1,1 +1,1 @@
-printenv > /home/ubuntu/vnf_env.txt
+printenv >> /home/ubuntu/vnf_env.txt
