@@ -1,2 +1,2 @@
 adduser --disabled-password --gecos "" vlc_user
-su vlc_user -c "screen -d -m -S generator cvlc /home/ubuntu/BigBuckBunny_320x180.mp4 --sout '#standard{access=http,mux=ts}' :input-repeat=-1"
+su vlc_user -c "screen -d -m -S generator cvlc /home/ubuntu/$videofile --sout '#standard{access=http,mux=ts,dst=:$source_port}' :input-repeat=-1"
