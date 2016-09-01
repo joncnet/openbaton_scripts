@@ -1,1 +1,1 @@
-echo $(ifconfig $ifname | grep "inet addr" | cut -d ':' -f 2 | cut -d ' ' -f 1)
+echo $(ifconfig | grep $ifname -A 1 | grep "inet addr" | cut -d ':' -f 2 | cut -d ' ' -f 1)
