@@ -1,0 +1,1 @@
+screen -d -m -S stress_background stress --cpu 2
