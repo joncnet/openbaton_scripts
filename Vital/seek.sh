@@ -1,0 +1,1 @@
+wget --user="" --password="qwerty" "http://localhost:8000/requests/status.xml?command=seek&val=$second" -qO- > /dev/null
