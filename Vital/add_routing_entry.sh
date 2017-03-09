@@ -1,0 +1,1 @@
+route add -net $netaddr/$mask gw $gateway
