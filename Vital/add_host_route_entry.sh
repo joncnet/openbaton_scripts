@@ -1,0 +1,1 @@
+route add -host $hostaddr gw $gateway
